@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.navbar-wrapper{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 26.4px;
+    line-height: 15.14px;   
+    letter-spacing: 2.05px;
+    padding: 26.65px 23px 26.65px 23px;
+    text-transform: uppercase;
+}
+.navbar-heading{
+}
+.navbar-product{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6.66px 3.59px 6.66px 3.59px;
+
+}
