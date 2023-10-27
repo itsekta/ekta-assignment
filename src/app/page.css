@@ -1,0 +1,13 @@
+.main-section{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 24px 0px;
+    align-items: center;    
+}
+.get-ready-text{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+}
