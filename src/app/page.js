@@ -7,7 +7,7 @@ import BlobAnimation from '@/components/BlobAnimation';
 export default function Home() {
   return (
     <main className="min-h-screen main">
-      {/* <BlobAnimation /> */}
+      <BlobAnimation />
       <NavBar />
       <div className="main-section-wrapper">
         <div className="main-section">
