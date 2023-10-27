@@ -3,9 +3,11 @@ import NavBar from '@/components/NavBar';
 import HeaderSection from '@/components/HeaderSection';
 import TimerSection from '@/components/TimerSection';
 import EmailSection from '@/components/EmailSection';
+import BlobAnimation from '@/components/BlobAnimation';
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen main">
+      <BlobAnimation />
       <NavBar />
       <div className="main-section">
         <HeaderSection />

@@ -1,0 +1,80 @@
+/* BlobAnimation.css */
+.blob-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    overflow: hidden;
+    z-index: -1;
+    max-height: 100vh;
+  }
+  
+  .blob {
+    position: absolute;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    background-color: #772BF2;
+    filter: blur(20px);
+    animation-delay: 1500ms;
+  }
+  
+  .blob-1 {
+    animation-name: light-1-animation;
+  }
+  
+  .blob-2 {
+    animation-name: light-2-animation;
+  }
+  
+  @keyframes light-1-animation {
+    0%, 100% {
+      top: 0;
+      left: 0;
+      background-color: #772BF2; /* Fixed color for the blob */
+    }
+    25% {
+      top: 0;
+      left: 100%;
+      background-color: #FF00B8; /* Fixed color for the blob */
+    }
+    50% {
+      top: 100%;
+      left: 100%;
+      background-color: #772BF2; /* Fixed color for the blob */
+    }
+    75% {
+      top: 100%;
+      left: 0;
+      background-color: #FF00B8; /* Fixed color for the blob */
+    }
+  }
+  
+  @keyframes light-2-animation {
+    0%, 100% {
+      top: 100%;
+      left: 100%;
+      background-color: #772BF2; /* Fixed color for the blob */
+    }
+    25% {
+      top: 100%;
+      left: 0;
+      background-color: #FF00B8; /* Fixed color for the blob */
+    }
+    50% {
+      top: 0;
+      left: 0;
+      background-color: #772BF2; /* Fixed color for the blob */
+    }
+    75% {
+      top: 0;
+      left: 100%;
+      background-color: #FF00B8; /* Fixed color for the blob */
+    }
+  }
+  
