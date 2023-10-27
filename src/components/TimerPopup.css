@@ -1,0 +1,38 @@
+.timer-popup{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(99.57deg, #E6B8D9 1%, #C9B8E6 100.1%);
+    padding:64px;
+    border-radius: 24px;
+    gap: 72px;
+}
+.timer-popup-header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.timer-popup-heading{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.timer-popup-desc{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: linear-gradient(0deg, #0F0F0F, #0F0F0F),
+}
+.timer-popup-button{
+    background-color: #000000;
+    color:  #ffffff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+}
