@@ -1,6 +1,9 @@
 .main{
     position: relative;
 }
+.main-section-wrapper{
+    padding: 64px;
+}
 .main-section{
     display: flex;
     flex-direction: column;

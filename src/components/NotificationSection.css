@@ -1,0 +1,35 @@
+.notification-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.notification-desc{
+    font-family: Poppins !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+}
+.notification-action{
+    display: flex;
+    gap: 14px;
+
+}
+.notification-input{
+    border: 1.5px solid #4d4d4d;
+    border-radius: 8px;
+    padding: 16px 20px;
+    width: 600px;
+    height: 52px;
+    color:  rgba(77, 77, 77, 1);
+
+}
+.notification-button{
+    background-color: #000000;
+    color:  rgba(255, 255, 255, 0.5);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+}
