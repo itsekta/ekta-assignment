@@ -1,9 +1,10 @@
 .main{
     position: relative;
 }
-/* .main-section-wrapper{
-    padding: 64px;
-} */
+.main-section-wrapper{
+    display: flex;
+    justify-content: center;
+}
 .main-section{
     display: flex;
     flex-direction: column;
@@ -19,9 +20,10 @@
 }
 
 @media (max-width: 768px) {
-    /* .main-section-wrapper {
-        padding: 32px; 
-    } */
+    .main-section-wrapper {
+        display: flex;
+        justify-content: center;
+    }
 
     .main-section {
         gap: 32px; 

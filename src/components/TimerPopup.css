@@ -13,48 +13,79 @@
     
 }
 .timer-popup-heading{
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
     font-size: 64px;
+    font-style: normal;
     font-weight: 600;
     line-height: 64px;
-    letter-spacing: 0em;
-    text-align: center;
+    background: linear-gradient(90deg, #0F0F0F 0.11%, #333 98.77%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .timer-popup-desc{
+    color: #333;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
     font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: linear-gradient(0deg, #0F0F0F, #0F0F0F),
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+
 }
 .timer-popup-button{
-    background-color: #000000;
-    color:  #ffffff;
-    padding: 8px 20px;
-    border-radius: 8px;
-    font-size: 24px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
     border: none;
+    border-radius: 8px;
+    background: #0F0F0F;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
 }
 @media (max-width: 768px) {
     .timer-popup {
-      padding: 32px;
-      gap: 48px;
+        display: flex;
+        padding: 24px 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+        align-self: stretch;
     }
   
     .timer-popup-heading {
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 24px;
+      /* line-height: 48px; */
     }
   
     .timer-popup-desc {
-      font-size: 20px;
-      line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
     }
   
     .timer-popup-button {
-      font-size: 20px;
-      padding: 6px 16px;
+        display: flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; 
     }
   }
