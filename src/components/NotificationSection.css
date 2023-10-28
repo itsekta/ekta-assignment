@@ -36,9 +36,22 @@ input:focus{
     padding: 8px 20px;
     border-radius: 8px;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 .disabled{
     pointer-events: none;
     color:  rgba(255, 255, 255, 0.5);
 
+}
+ .MuiCircularProgress-colorPrimary{
+    color: #ffffff !important;
+}
+.check-icon{
+    pointer-events: none !important;
+    cursor: initial;
+}
+.invalid-email{
+    color: red;
 }
