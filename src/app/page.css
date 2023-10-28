@@ -1,9 +1,9 @@
 .main{
     position: relative;
 }
-.main-section-wrapper{
+/* .main-section-wrapper{
     padding: 64px;
-}
+} */
 .main-section{
     display: flex;
     flex-direction: column;
@@ -18,3 +18,17 @@
     font-weight: 600;
 }
 
+@media (max-width: 768px) {
+    /* .main-section-wrapper {
+        padding: 32px; 
+    } */
+
+    .main-section {
+        gap: 32px; 
+        padding: 16px 0; 
+    }
+
+    .get-ready-text {
+        font-size: 18px; 
+        }
+}

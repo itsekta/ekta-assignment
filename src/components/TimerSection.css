@@ -29,3 +29,29 @@
     line-height: 24px;
     text-align: left;
 }
+@media (max-width: 768px) {
+    .timer-section-wrapper {
+        padding: 16px;
+        border-radius: 12px;
+        gap: 32px;
+    }
+
+    .timer-hour,
+    .timer-minute,
+    .timer-seconds {
+        padding: 4px;
+        gap: 8px;
+    }
+
+    .timer-digits {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+
+    .timer-label {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+}

@@ -32,3 +32,28 @@
     text-align: center;
 
 }
+@media (max-width: 768px) {
+    .header-section-wrapper {
+        gap: 8px; 
+    }
+
+    .header-section {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+
+    .header-section-image {
+        height: 48px;
+        width: 48px;
+    }
+
+    .header-section-heading {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .header-section-desc {
+        font-size: 18px; 
+        line-height: 22px;
+    }
+}
