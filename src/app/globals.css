@@ -41,7 +41,7 @@ body {
 
 
 html, body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
   scroll-behavior: smooth;
   overflow: overlay;
 }
