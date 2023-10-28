@@ -41,7 +41,7 @@
   }
   
   @keyframes light-1-animation {
-    0% {
+    0%,100% {
       top: 0;
       left: 0;
       background: rgba(255, 0, 184, 1);
@@ -60,7 +60,7 @@
       background: rgba(255, 0, 184, 1);
       box-shadow:25px 20px 200px 100px rgba(255, 0, 184, 1);
     }
-    100% {
+    75% {
       top: 80%;
       left: 0;      
       background: rgba(255, 0, 184, 1);
@@ -70,7 +70,7 @@
   }
   
   @keyframes light-2-animation {
-    0%{
+    0%,100%{
       top: 80%;
       left: 90%;
       background: rgba(119, 43, 242, 1);
@@ -89,7 +89,8 @@
       background: rgba(119, 43, 242, 1);
       box-shadow:25px 20px 200px 100px rgba(119, 43, 242, 1);
     }
-    100% {
+
+    75% {
       top: 0;
       left: 90%;
       background: rgba(119, 43, 242, 1);

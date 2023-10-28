@@ -53,5 +53,7 @@ input:focus{
     cursor: initial;
 }
 .invalid-email{
-    color: red;
+    color: #fd443a;
+    margin-top: -20px;
+    margin-left: 10px;
 }
